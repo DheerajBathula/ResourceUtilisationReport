@@ -201,8 +201,6 @@ class Instance:
 
 
 owner_dict = {
-    "Dheeraj.Bathula": Owner("Dheeraj Bathula", "Dheeraj.Bathula@Teradata.com"),
-    "Subhadip.Bhattacharyya": Owner("Subhadip Bhattacharyya", "Subhadip.Bhattacharyya@Teradata.com")
 }
 
 
@@ -374,7 +372,7 @@ def display_results(running_dict, options):
     count_under = 0
     total_instance_cost = 0.0
     toemail = set()
-    toemail.add("top-azure-ami-owners@lists.teradata.com")
+    toemail.add("")
 
     format_str = "{:15} {:20} {:12} {:40} {:30} {:16} {:50} {:10} {:6}"
 
@@ -427,7 +425,7 @@ def display_detailed_result(running_dict, options):
     count_under = 0
     total_instance_cost = 0.0
     toemail = set()
-    toemail.add("top-azure-ami-owners@lists.teradata.com")
+    toemail.add("")
 
     format_str = "{:15} {:20} {:12} {:40} {:30} {:16} {:50} {:10} {:6} {:10} {:10} {:10} {:10} {:10} {:10} {:10}"
 
